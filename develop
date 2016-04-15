@@ -1,0 +1,15 @@
+#!/usr/bin/env perl
+use strict;
+use warnings;
+use Getopt::Long;
+use Proclet::Declare;
+
+my %args;
+GetOptions(\%args, qw/port|p=i/);
+
+my $port = $args{port} || 5000;
+
+service( "webapp", "carton exec plackup -R templates -p $port app.pl" );
+service( "assets", "cd assets && webpack --colors --watch");
+color;
+run;

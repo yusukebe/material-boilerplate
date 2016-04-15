@@ -1,0 +1,15 @@
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+/assets/node_modules
+/local
+/log/*
