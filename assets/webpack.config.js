@@ -1,12 +1,12 @@
 var path = require('path');
 
 module.exports = {
-  entry: './main.jsx',
+  entry: './main.js',
   output: { path: path.join(__dirname + '/../public/js/'), filename: 'app.js' },
   module: {
     loaders: [
       {
-        test: /.jsx?$/,
+        test: /.js$/,
         loader: 'babel-loader',
         exclude: /node_modules/,
         query: {
