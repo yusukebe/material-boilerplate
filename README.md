@@ -14,6 +14,7 @@ This is the practical Material-UI web application project.
 ## Prerequisites
 
 * Perl
+* [`plackup`](https://metacpan.org/pod/distribution/Plack/script/plackup)
 * [`carton`](https://metacpan.org/release/carton)
 * [Proclet](https://metacpan.org/release/Proclet)
 * `npm`
