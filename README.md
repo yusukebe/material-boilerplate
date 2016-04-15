@@ -6,7 +6,6 @@ This is the practical Material-UI web application project.
 
 * **React components**
 * **ES2015**
-* **JSX**
 * Building assets with **webpack**
 * Using **SASS**
 * Making sample web app with **Mojolicious::Lite** ❤  Perl
